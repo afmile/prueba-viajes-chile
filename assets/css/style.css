@@ -36,3 +36,11 @@ body {
 .titulo-destacados {
     color: white;
 }
+
+.card-body {
+    background-color: #64D6FF;
+}
+
+.card-text,.card-title {
+    color: white;
+}
