@@ -1,3 +1,6 @@
+body {
+    background-color: black;
+}
 .navbar {
     position: absolute;
     background: transparent !important;
@@ -10,5 +13,26 @@
 }
 
 .pregunta {
+    color: white;
+}
+
+.contenedor-icono-arriba {
+    background-color: #64D6FF;
+}
+
+.contenedor-icono-abajo {
+    background-color: #64D6FF;
+}
+
+.texto-preguntas {
+    color: white;
+    text-align: justify;
+}
+
+.iconos {
+    color: white;
+}
+
+.titulo-destacados {
     color: white;
 }
