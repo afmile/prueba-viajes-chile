@@ -17,11 +17,11 @@ body {
 }
 
 .contenedor-icono-arriba {
-    background-color: #64D6FF;
+    background-color: #0dcaf0;
 }
 
 .contenedor-icono-abajo {
-    background-color: #64D6FF;
+    background-color: #0dcaf0;
 }
 
 .texto-preguntas {
@@ -38,9 +38,25 @@ body {
 }
 
 .card-body {
-    background-color: #64D6FF;
+    background-color: #0dcaf0;
 }
 
 .card-text,.card-title {
+    color: white;
+}
+
+.form-label {
+    color: white;
+}
+
+.btn-info {
+    color: white;
+}
+
+.contenedor-footer {
+    background-color: #0dcaf0;
+}
+
+.viajes-chile-footer {
     color: white;
 }
