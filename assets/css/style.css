@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     background-color: black;
     font-family: 'Lato', sans-serif;
@@ -5,7 +9,10 @@ body {
 .navbar {
     background: transparent !important;
     width: 100%;
-    z-index: 10;
+}
+
+.bgcolor.scrolled {
+    background-color: rgba(0, 0, 0, 0.692);
 }
 
 .contenedor-pregunta {
@@ -14,6 +21,8 @@ body {
 
 .pregunta {
     color: white;
+    font-size: 1.875rem;
+    font-weight: 700;
 }
 
 .contenedor-icono-arriba {
@@ -27,6 +36,7 @@ body {
 .texto-preguntas {
     color: white;
     text-align: justify;
+    
 }
 
 .iconos {
@@ -35,6 +45,8 @@ body {
 
 .titulo-destacados {
     color: white;
+    font-size: 1.875rem;
+    font-weight: 700;
 }
 
 .card-body {
@@ -45,12 +57,21 @@ body {
     color: white;
 }
 
+.card-text {
+    font-weight: 300;
+}
+
+.card-title{
+    font-weight: 400;
+}
 .form-label {
     color: white;
+    font-weight: 700;
 }
 
 .btn-info {
     color: white;
+    font-weight: 700;
 }
 
 .contenedor-footer {
