@@ -9,14 +9,16 @@ $(function(){
         alert('Su mensaje fue enviado correctamente...');
     })
 
-    /* $('h2').dblclick(function(){
+    $('h1').dblclick(function(){
         $(this).css({
-            color: "red",
-            borderColor: "red"
+            color: "#0dcaf0",
+            borderColor: "white"
         });
     })
-*/
+
     $('.card-title').click(function(){
         $('.card-text, .card-img-top').toggle('slow');
     });
+
+
 })

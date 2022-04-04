@@ -1,8 +1,8 @@
 body {
     background-color: black;
+    font-family: 'Lato', sans-serif;
 }
 .navbar {
-    position: absolute;
     background: transparent !important;
     width: 100%;
     z-index: 10;
