@@ -6,14 +6,7 @@ body {
     background-color: black;
     font-family: 'Lato', sans-serif;
 }
-.navbar {
-    background: transparent !important;
-    width: 100%;
-}
 
-.bgcolor.scrolled {
-    background-color: rgba(0, 0, 0, 0.692);
-}
 
 .contenedor-pregunta {
     background-color: black;
